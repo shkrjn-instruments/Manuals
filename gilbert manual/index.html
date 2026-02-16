@@ -2,7 +2,8 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Gilbert MKii Text Manual</title>
+  <title>Gilbert mkii Text Manual</title>
+  
 
   <style>
     html, body {
@@ -14,30 +15,87 @@
     body {
       display: flex;
       justify-content: center;
-      align-items: flex-start;
-      padding: 2rem;
+      align-items: flex-start; 
+      padding: 1rem;
     }
 
-    .manual {
-      max-width: 900px;
-      width: 100%;
-    }
+.manual {
+  max-width: 1200px;
+  width: 100%;
+   background-color: #ffffff;
+            border-radius: 12px;
+            padding: 30px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+}
 
-    object {
-      width: 100%;
-      height: auto;
-      display: block;
-    }
+.section {
+  width: 100%;
+  display: block;
+  margin-bottom: 20px;   /* spacing below PNGs */
+}
+
+.gif {
+  width: 100%;
+  display: block;
+  margin-bottom: 1px;   /* spacing below GIFs */
+}
+
+
+.link-text {
+  
+  text-align: center;
+}
+
+.text-link-image {
+  width: 100%;
+  max-width: 900px;
+  display: block;
+  margin: 0 auto 40px auto;
+}
+
   </style>
 </head>
 <body>
 
-  <object
-    class="manual"
-    type="image/svg+xml"
-    data="gilbert_MKii_manual.svg">
-    Your browser does not support SVG files.
-  </object>
+  <div class="manual">
+    
+<img src="section1.png" class="section">
+
+<p class="link-text">
+
+  <a href="https://shkrjn-instruments.github.io/Gilbert-2-Interactive-Manual/" target="_blank">
+    <img src="text_link.png" class="text-link-image">
+
+  </a>
+</p>
+
+<img src="section2.png" class="section">
+
+<img src="gif1.gif" class="gif">
+<img src="gif_label1.png" class="section">
+
+<img src="section3.png" class="section">
+
+<img src="gif2.gif" class="gif">
+<img src="gif_label1.png" class="section">
+
+<img src="section4.png" class="section">
+
+<img src="gif3.gif" class="gif">
+<img src="gif_label1.png" class="section">
+
+<img src="gif4.gif" class="gif">
+<img src="gif_label2.png" class="section">
+
+<img src="section5.png" class="section">
+
+<img src="gif5.gif" class="gif">
+
+
+
+</div>
+
 
 </body>
+
 </html>
